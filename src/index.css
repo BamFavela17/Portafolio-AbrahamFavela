@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 1. Suavizar el movimiento */
+html {
+  scroll-behavior: smooth;
+  /* 2. ESPACIO MÁGICO: Evita que el header tape el contenido */
+  scroll-padding-top: 90px; 
+}
+
+/* 3. Ajuste extra para móviles */
+@media (max-width: 768px) {
+  section {
+    /* Asegura que las secciones tengan aire arriba en pantallas pequeñas */
+    padding-top: 80px !important;
+  }
+  
+  /* Evita el parpadeo blanco al tocar links en iOS */
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
