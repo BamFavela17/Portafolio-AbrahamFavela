@@ -52,13 +52,13 @@ const About: React.FC = () => {
                 <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
                   Especialidad
                 </span>
-                <span className="text-sm text-gray-200">Full-Stack / .NET / Mobile</span>
+                <span className="text-sm text-gray-200">Full-Stack / Web / Mobile</span>
               </div>
               <div>
                 <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
                   Base de Datos
                 </span>
-                <span className="text-sm text-gray-200">PostgreSQL / SQL Server</span>
+                <span className="text-sm text-gray-200">PostgreSQL / SQL Server / MySQL</span>
               </div>
             </div>
             

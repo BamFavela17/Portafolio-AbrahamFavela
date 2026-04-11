@@ -5,6 +5,7 @@ interface ProjectItem {
   title: string;
   description: string;
   url: string;
+  Repo?: string;
   image: string;
   tags: string[];
   category: "Web" | "Mobile" | "Videojuegos" | "Sistemas";
@@ -15,6 +16,7 @@ const projects: ProjectItem[] = [
     title: "Aplicación de Alertas Escolares - Exelsium",
     description: "Optimización de experiencia de usuario y eficiencia operativa mediante módulos de carga de datos masivos con Blazor.",
     url: "",
+    Repo: "",
     image: "",
     tags: ["Blazor", "C#", "SQL Server", "UI/UX"],
     category: "Sistemas",
@@ -23,6 +25,7 @@ const projects: ProjectItem[] = [
     title: "Gestión de Inventarios - Tostitos El Rey",
     description: "Sistema integral desarrollado en ASP.NET para el control de existencias y optimización operativa.",
     url: "",
+    Repo: "",
     image: "",
     tags: ["ASP.NET", "MVC", "C#", "SQL server"],
     category: "Sistemas",
@@ -31,6 +34,7 @@ const projects: ProjectItem[] = [
     title: "Plataformas Web - Secretaría de Economía",
     description: "Desarrollo con enfoque en UX, configuración de servidores SMTP y automatización de comunicación vía WhatsApp API.",
     url: "https://coyotaschuyita.com/",
+    Repo: "",
     image: "/img/ChuyitaPage.png",
     tags: ["WordPress", "SMTP", "APIs", "WhatsApp Integration"],
     category: "Web",
@@ -39,14 +43,16 @@ const projects: ProjectItem[] = [
     title: "Sistema de Gestión de Gimnasio (UES)",
     description: "Control de accesos mediante tecnologías NFC/PIN y monitoreo de flujo de usuarios en tiempo real.",
     url: "https://www.youtube.com/watch?v=5gGpnNZuT4E",
+    Repo: "https://github.com/BamFavela17/GymUes-AccesControl.git",
     image: "/img/GymUes.png",
-    tags: ["React", "Auth", "Node.js/Express", "Hardware Integration", "PostgreSQL", "ApiRest"],
+    tags: ["React", "Auth", "Node.js/Express", "Hardware Integration", "PostgreSQL", "ApiRest", "Tailwindcss "],
     category: "Sistemas",
   },
   {
     title: "Invasión Covicho",
     description: "Videojuego 2D desarrollado en Unity inspirado en mecánicas de combate y físicas personalizadas.",
     url: "",
+    Repo: "",
     image: "",
     tags: ["Unity", "C#", "GameDev", "2D Physics"],
     category: "Videojuegos",
@@ -55,6 +61,7 @@ const projects: ProjectItem[] = [
     title: "Vamos Turisteando",
     description: "Landing page diseñada para la promoción de servicios de una operadora de tours turísticos.",
     url: "https://vamosturistiando.netlify.app/",
+    Repo: "",
     image: "/img/vamosTuristiando.png",
     tags: ["HTML", "CSS", "JS", "Responsive"],
     category: "Web",
@@ -63,14 +70,16 @@ const projects: ProjectItem[] = [
     title: "Planificate",
     description: "Aplicación móvil diseñada para la planificación de gastos personales basada en presupuestos definidos.",
     url: "",
+    Repo: "",
     image: "/img/Planificador.png",
-    tags: ["React Native", "CSS", "Android studio"],
+    tags: ["React Native", "CSS", "Expo", "AsyncStorage"],
     category: "Mobile",
   },
   {
     title: "Chat En Linea",
     description: "Aplicación móvil de mensajeria inmediata con autenticacion de usarios",
     url: "",
+    Repo: "",
     image: "",
     tags: ["Kotlin", "FireBase", "Android studio", "Google Auth"],
     category: "Mobile",
@@ -79,6 +88,7 @@ const projects: ProjectItem[] = [
     title: "Festival de Música",
     description: "Aplicación web para la simulación de publicidad y gestión de venta de boletos para eventos masivos.",
     url: "https://festival-musica-sass-web.netlify.app/",
+    Repo: "",
     image: "/img/FestivalMusica.png",
     tags: ["GULP", "SASS", "JAVASCRIPT", "HTML", "Responsive"],
     category: "Web",
@@ -87,6 +97,7 @@ const projects: ProjectItem[] = [
     title: "Bienes Raíces - Administración",
     description: "Aplicación web diseñada para la gestión y administración de propiedades inmobiliarias y clientes.",
     url: "",
+    Repo: "https://github.com/BamFavela17/Crud_bienesRaices.git ",
     image: "/img/BienesRaices.png",
     tags: ["GULP", "SASS", "PHP", "HTML", "Responsive", "MySql"],
     category: "Web",
@@ -95,8 +106,18 @@ const projects: ProjectItem[] = [
     title: "Tienda-GuitarLA",
     description: "Aplicacion web que simula el funcionamiento de una tienda virtual",
     url: "https://tienda-en-linea-wheat.vercel.app/",
+    Repo: "",
     image: "/img/guitarLA.png",
     tags: ["React", "Responsive", "CSS", "JSON"],
+    category: "Web",
+  },
+  {
+    title: "CAfeteria Virtual",
+    description: "Aplicacion web, que promociona un proyecto de cafetería, con un diseño moderno y atractivo",
+    url: "https://blog-de-cafe-gray.vercel.app/index.html",
+    Repo: "https://github.com/BamFavela17/blog_de_cafe.git",
+    image: "/img/Cafe.png",
+    tags: ["JavaScript", "Responsive", "CSS", "HTML"],
     category: "Web",
   },
 ];
@@ -185,16 +206,28 @@ const Project: React.FC = () => {
                     ))}
                   </div>
 
-                  {project.url && (
-                    <a 
-                      href={project.url} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="mt-4 text-[#1CB698] text-xs font-bold hover:underline inline-flex items-center gap-1"
-                    >
-                      VER PROYECTO <i className="fa-solid fa-external-link text-[10px]"></i>
-                    </a>
-                  )}
+                  <div className="mt-4 flex flex-wrap gap-4">
+                    {project.url && (
+                      <a 
+                        href={project.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-[#1CB698] text-xs font-bold hover:underline inline-flex items-center gap-1"
+                      >
+                        VER PROYECTO <i className="fa-solid fa-external-link text-[10px]"></i>
+                      </a>
+                    )}
+                    {project.Repo && (
+                      <a 
+                        href={project.Repo} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-[#1CB698] text-xs font-bold hover:underline inline-flex items-center gap-1"
+                      >
+                        VER REPOSITORIO <i className="fa-brands fa-github text-[12px]"></i>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </motion.div>
             ))}

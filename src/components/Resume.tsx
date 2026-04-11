@@ -43,7 +43,7 @@ const resumeData: TimelineItem[] = [
     company: "Udemy Certified",
     period: "2023 - 2024",
     description: "Formación intensiva en Desarrollo Web Completo, React con TypeScript y Desarrollo Móvil Multiplataforma utilizando React Native con Expo.",
-    type: "education", // Lo mantenemos en la columna de educación para fortalecer el perfil académico
+    type: "education", 
   },
 ];
 
