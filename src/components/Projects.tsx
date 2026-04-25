@@ -95,9 +95,9 @@ const projects: ProjectItem[] = [
   },
   {
     title: "Bienes Raíces - Administración",
-    description: "Aplicación web diseñada para la gestión y administración de propiedades inmobiliarias y clientes.",
-    url: "",
-    Repo: "https://github.com/BamFavela17/Crud_bienesRaices.git ",
+    description: "Aplicación web diseñada para la gestión y administración de propiedades inmobiliarias y vendedores asi como un fromulario de cotizacion.",
+    url: "https://bienesraicesgestionado.infinityfree.me",
+    Repo: "",
     image: "/img/BienesRaices.png",
     tags: ["GULP", "SASS", "PHP", "HTML", "Responsive", "MySql"],
     category: "Web",
@@ -112,7 +112,7 @@ const projects: ProjectItem[] = [
     category: "Web",
   },
   {
-    title: "CAfeteria Virtual",
+    title: "Cafeteria Virtual (blog de cafe)",
     description: "Aplicacion web, que promociona un proyecto de cafetería, con un diseño moderno y atractivo",
     url: "https://blog-de-cafe-gray.vercel.app/index.html",
     Repo: "https://github.com/BamFavela17/blog_de_cafe.git",
