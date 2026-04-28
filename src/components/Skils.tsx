@@ -33,6 +33,7 @@ const skills: Skill[] = [
   { name: 'WordPress (SMTP)', category: 'Otros', icon: 'fa-brands fa-wordpress' },
   { name: 'Unity 2D', category: 'Otros', icon: 'fa-brands fa-unity' },
   { name: 'Git / GitHub', category: 'Otros', icon: 'fa-brands fa-github' },
+  { name: 'Windows Server / Ubuntu Server', category: 'Otros', icon: 'fa-solid fa-server' },
 ];
 
 const containerVariants = {

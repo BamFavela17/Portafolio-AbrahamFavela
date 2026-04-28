@@ -9,12 +9,21 @@ interface TimelineItem {
   type: "work" | "education" | "course";
 }
 
+
+
 const resumeData: TimelineItem[] = [
   {
-    title: "Consultor Técnico",
-    company: "Secretaría de Economía (Gobierno del Estado)",
-    period: "03/2025 - 09/2025",
-    description: "Desarrollo de plataformas web con enfoque en UX y optimización de comunicación digital. Configuración de servidores SMTP e integración estratégica de APIs de WhatsApp.",
+    title: "Desarrollador Full-Stack & Gestión de Proyectos",
+    company: "Secretaría de Economía (Gobierno del Estado de Sonora)",
+    period: "03/2025 - Presente",
+    description: "Desarrollo de plataformas institucionales y administración de infraestructura en Windows y Ubuntu Server. Implementación de servicios SMTP y optimización de flujos de comunicación digital.",
+    type: "work",
+  },
+  {
+    title: "Lead Developer (Proyecto GymUes)",
+    company: "Universidad Estatal de Sonora",
+    period: "02/2026 - 04/2026",
+    description: "Arquitectura y despliegue de un sistema de control de acceso utilizando Node.js, TypeScript y MySQL. Optimización de bases de datos con tipos JSONB para trazabilidad histórica.",
     type: "work",
   },
   {
@@ -35,14 +44,14 @@ const resumeData: TimelineItem[] = [
     title: "Ingeniería en Software",
     company: "Universidad Estatal de Sonora (UES)",
     period: "2021 - Presente",
-    description: "Estudiante de último año, enfocado en arquitectura de software, bases de datos (PostgreSQL/SQL Server) y desarrollo web/móvil.",
+    description: "Estudiante de último año enfocado en ingeniería de software, arquitectura de sistemas escalables y administración de bases de datos (PostgreSQL/SQL Server).",
     type: "education",
   },
   {
     title: "Especialización en Desarrollo Moderno",
     company: "Udemy Certified",
     period: "2023 - 2024",
-    description: "Formación intensiva en Desarrollo Web Completo, React con TypeScript y Desarrollo Móvil Multiplataforma utilizando React Native con Expo.",
+    description: "Formación intensiva en React con TypeScript, Node.js y desarrollo móvil multiplataforma con React Native.",
     type: "education", 
   },
 ];

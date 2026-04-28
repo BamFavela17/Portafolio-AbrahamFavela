@@ -13,8 +13,26 @@ interface ProjectItem {
 
 const projects: ProjectItem[] = [
   {
-    title: "Aplicación de Alertas Escolares - Exelsium",
-    description: "Optimización de experiencia de usuario y eficiencia operativa mediante módulos de carga de datos masivos con Blazor.",
+    title: "Sistema de Control de Asistencia - UES",
+    description: "Desarrollo integral (Hardware + Software) para el control de accesos mediante PIN. Incluye monitoreo en tiempo real, trazabilidad de usuarios y una API robusta.",
+    url: "https://www.youtube.com/watch?v=5gGpnNZuT4E",
+    Repo: "https://github.com/BamFavela17/GymUes-AccesControl.git",
+    image: "/img/GymUes.png",
+    tags: ["React", "Node.js", "PostgreSQL", "TailwindCSS", "API Rest"],
+    category: "Sistemas",
+  },
+  {
+    title: "Plataformas Web - Secretaría de Economía",
+    description: "Modernización de servicios digitales institucionales. Implementación de servidores SMTP, integración de WhatsApp API y optimización de flujos de usuario.",
+    url: "https://coyotaschuyita.com/",
+    Repo: "",
+    image: "/img/ChuyitaPage.png",
+    tags: ["WordPress", "SMTP", "APIs", "Server Management"],
+    category: "Web",
+  },
+  {
+    title: "Aplicación de Alertas Escolares",
+    description: "Módulo de carga masiva de datos y sistema de notificaciones desarrollado para optimizar la eficiencia operativa en el sector educativo.",
     url: "",
     Repo: "",
     image: "",
@@ -23,34 +41,25 @@ const projects: ProjectItem[] = [
   },
   {
     title: "Gestión de Inventarios - Tostitos El Rey",
-    description: "Sistema integral desarrollado en ASP.NET para el control de existencias y optimización operativa.",
+    description: "Arquitectura MVC para el control de stock, generación de reportes financieros y automatización de alertas de reabastecimiento.",
     url: "",
     Repo: "",
     image: "",
-    tags: ["ASP.NET", "MVC", "C#", "SQL server"],
+    tags: ["ASP.NET", "C#", "SQL Server", "Business Logic"],
     category: "Sistemas",
   },
   {
-    title: "Plataformas Web - Secretaría de Economía",
-    description: "Desarrollo con enfoque en UX, configuración de servidores SMTP y automatización de comunicación vía WhatsApp API.",
-    url: "https://coyotaschuyita.com/",
+    title: "Planificate (Finanzas Personales)",
+    description: "Aplicación móvil para la gestión de presupuestos. Utiliza persistencia de datos local para un rendimiento óptimo offline.",
+    url: "",
     Repo: "",
-    image: "/img/ChuyitaPage.png",
-    tags: ["WordPress", "SMTP", "APIs", "WhatsApp Integration"],
-    category: "Web",
-  },
-  {
-    title: "Sistema de Gestión de Gimnasio (UES)",
-    description: "Control de accesos mediante tecnologías NFC/PIN y monitoreo de flujo de usuarios en tiempo real.",
-    url: "https://www.youtube.com/watch?v=5gGpnNZuT4E",
-    Repo: "https://github.com/BamFavela17/GymUes-AccesControl.git",
-    image: "/img/GymUes.png",
-    tags: ["React", "Auth", "Node.js/Express", "Hardware Integration", "PostgreSQL", "ApiRest", "Tailwindcss "],
-    category: "Sistemas",
+    image: "/img/Planificador.png",
+    tags: ["React Native", "AsyncStorage", "Expo", "Flexbox"],
+    category: "Mobile",
   },
   {
     title: "Invasión Covicho",
-    description: "Videojuego 2D desarrollado en Unity inspirado en mecánicas de combate y físicas personalizadas.",
+    description: "Videojuego 2D con enfoque educativo. Implementación de mecánicas de disparo, IA de enemigos y físicas personalizadas en Unity.",
     url: "",
     Repo: "",
     image: "",
@@ -58,48 +67,30 @@ const projects: ProjectItem[] = [
     category: "Videojuegos",
   },
   {
+    title: "Bienes Raíces - Administración",
+    description: "Plataforma de gestión inmobiliaria con un backend robusto en PHP para la administración de propiedades y vendedores.",
+    url: "",
+    Repo: "",
+    image: "/img/BienesRaices.png",
+    tags: ["PHP", "MySQL", "SASS", "GULP"],
+    category: "Web",
+  },
+  {
     title: "Vamos Turisteando",
-    description: "Landing page diseñada para la promoción de servicios de una operadora de tours turísticos.",
+    description: "Landing page diseñada para la promoción de servicios de una tourOperadora.",
     url: "https://vamosturistiando.netlify.app/",
     Repo: "",
     image: "/img/vamosTuristiando.png",
     tags: ["HTML", "CSS", "JS", "Responsive"],
     category: "Web",
   },
-  {
-    title: "Planificate",
-    description: "Aplicación móvil diseñada para la planificación de gastos personales basada en presupuestos definidos.",
-    url: "",
-    Repo: "",
-    image: "/img/Planificador.png",
-    tags: ["React Native", "CSS", "Expo", "AsyncStorage"],
-    category: "Mobile",
-  },
-  {
-    title: "Chat En Linea",
-    description: "Aplicación móvil de mensajeria inmediata con autenticacion de usarios",
-    url: "",
-    Repo: "",
-    image: "",
-    tags: ["Kotlin", "FireBase", "Android studio", "Google Auth"],
-    category: "Mobile",
-  },
-  {
-    title: "Festival de Música",
-    description: "Aplicación web para la simulación de publicidad y gestión de venta de boletos para eventos masivos.",
-    url: "https://festival-musica-sass-web.netlify.app/",
-    Repo: "",
-    image: "/img/FestivalMusica.png",
-    tags: ["GULP", "SASS", "JAVASCRIPT", "HTML", "Responsive"],
-    category: "Web",
-  },
-  {
-    title: "Bienes Raíces - Administración",
-    description: "Aplicación web diseñada para la gestión y administración de propiedades inmobiliarias y vendedores asi como un fromulario de cotizacion.",
-    url: "https://bienesraicesgestionado.infinityfree.me",
-    Repo: "",
-    image: "/img/BienesRaices.png",
-    tags: ["GULP", "SASS", "PHP", "HTML", "Responsive", "MySql"],
+    {
+    title: "Cafeteria Virtual (blog de cafe)",
+    description: "Aplicacion web, que promociona un proyecto de cafetería, con un diseño moderno y atractivo",
+    url: "https://blog-de-cafe-gray.vercel.app/index.html",
+    Repo: "https://github.com/BamFavela17/blog_de_cafe.git",
+    image: "/img/Cafe.png",
+    tags: ["JavaScript", "Responsive", "CSS", "HTML"],
     category: "Web",
   },
   {
@@ -112,14 +103,14 @@ const projects: ProjectItem[] = [
     category: "Web",
   },
   {
-    title: "Cafeteria Virtual (blog de cafe)",
-    description: "Aplicacion web, que promociona un proyecto de cafetería, con un diseño moderno y atractivo",
-    url: "https://blog-de-cafe-gray.vercel.app/index.html",
-    Repo: "https://github.com/BamFavela17/blog_de_cafe.git",
-    image: "/img/Cafe.png",
-    tags: ["JavaScript", "Responsive", "CSS", "HTML"],
-    category: "Web",
-  },
+    title: "App de Ventas Alimentos",
+    description: "Herramienta móvil para fuerza de ventas: registro de productos, gestión de cartera de clientes y analítica de ventas diaria.",
+    url: "",
+    Repo: "",
+    image: "",
+    tags: ["React Native", "Expo", "TailwindCSS"],
+    category: "Mobile",
+  }
 ];
 
 const Project: React.FC = () => {
@@ -141,7 +132,10 @@ const Project: React.FC = () => {
         >
           Mi <span className="text-[#1CB698]">Portafolio</span>
         </motion.h2>
-
+          {/* Descripción del Portafolio */}
+        <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
+          Aquí tienes algunos de mis proyectos más destacados. Haz clic en los botones de filtro para explorar diferentes categorías.
+        </p>
         {/* Botones de Filtro */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
           {categories.map((cat) => (

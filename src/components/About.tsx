@@ -16,7 +16,7 @@ const About: React.FC = () => {
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* Columna de Texto */}
+          {/* Columna de Texto: Basada en tu Perfil Profesional */}
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -28,37 +28,29 @@ const About: React.FC = () => {
               Ingeniero de Software en formación por la <span className="text-[#1CB698]">UES</span>
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Me especializo en el desarrollo <span className="text-white font-semibold">Full-Stack</span> con un enfoque estratégico en soluciones web escalables y optimización de la comunicación digital. Mi experiencia abarca desde el despliegue de plataformas en entornos gubernamentales hasta el diseño de arquitecturas robustas con <span className="text-white font-semibold">PostgreSQL</span> y SQL Server.
+              Especializado en el desarrollo <span className="text-white font-semibold">Full-Stack</span> con un fuerte enfoque en la creación de soluciones escalables y el despliegue en entornos de producción reales.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Destaco por una mentalidad ágil y autodidacta, comprometido con las <span className="text-white font-semibold italic border-b border-[#1CB698]/50">buenas prácticas de código limpio</span> y la entrega eficiente de proyectos que impulsan la transformación digital. Mi objetivo es transformar problemas complejos en herramientas funcionales.
+              Actualmente formo parte de la <span className="text-white font-semibold">Secretaría de Economía del Estado de Sonora</span>, donde gestiono proyectos web institucionales y administro infraestructura de servidores en <span className="text-white font-semibold">Windows y Ubuntu Server</span>. Mi enfoque combina la lógica sólida del backend con interfaces modernas y eficientes.
             </p>
-
-            {/* Datos Rápidos */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6 border-t border-gray-700">
+            
+            {/* Datos Rápidos del CV */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6 border-t border-gray-700/50">
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
-                  Ubicación
-                </span>
-                <span className="text-sm text-gray-200">Hermosillo, Sonora</span>
+                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Especialidad</span>
+                <span className="text-sm text-gray-200">Web, Mobile & Multiplataforma</span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
-                  Email
-                </span>
-                <span className="text-sm text-gray-200">favela.abraham17mx@gmail.com</span>
+                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Stack Principal</span>
+                <span className="text-sm text-gray-200">C#, React, Node.js, Laravel</span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
-                  Especialidad
-                </span>
-                <span className="text-sm text-gray-200">Full-Stack / Web / Mobile</span>
+                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Bases de Datos</span>
+                <span className="text-sm text-gray-200">PostgreSQL, SQL Server, MySQL</span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
-                  Base de Datos
-                </span>
-                <span className="text-sm text-gray-200">PostgreSQL / SQL Server / MySQL</span>
+                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Infraestructura</span>
+                <span className="text-sm text-gray-200">Linux & Windows Server</span>
               </div>
             </div>
             
@@ -66,9 +58,7 @@ const About: React.FC = () => {
                <a 
                 href={cvaf}
                 download="CV_Abraham_Favela.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-8 py-3 bg-[#1CB698] text-white font-bold rounded-full hover:bg-transparent hover:border-[#1CB698] border-2 border-transparent transition-all uppercase text-sm tracking-widest"
+                className="group inline-flex items-center gap-2 px-8 py-3 bg-[#1CB698] text-white font-bold rounded-full hover:bg-transparent hover:border-[#1CB698] border-2 border-transparent transition-all uppercase text-sm tracking-widest shadow-lg shadow-[#1CB698]/10"
               >
                 Descargar CV 
                 <i className="fa-solid fa-download group-hover:translate-y-1 transition-transform"></i>
@@ -76,7 +66,7 @@ const About: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Columna de Tarjeta de Habilidades */}
+          {/* Columna de Enfoque: Basada en tu Propuesta de Valor */}
           <motion.div 
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -86,34 +76,28 @@ const About: React.FC = () => {
           >
             <div className="relative group w-full max-w-md">
               <div className="absolute -inset-1 bg-[#1CB698] rounded-2xl blur opacity-10 group-hover:opacity-30 transition duration-1000"></div>
-              <div className="relative bg-[#252a2e] p-8 rounded-2xl border border-gray-700 shadow-2xl">
-                <h4 className="text-xl font-bold mb-8 text-center text-[#1CB698] tracking-widest uppercase text-sm">Enfoque Profesional</h4>
+              <div className="relative bg-[#2b3136] p-8 rounded-2xl border border-gray-700 shadow-2xl">
+                <h4 className="text-xl font-bold mb-8 text-center text-[#1CB698] tracking-widest uppercase text-sm">Puntos Clave</h4>
                 <ul className="space-y-6">
-                  <li className="flex items-start gap-4 group/item">
-                    <div className="bg-[#1e2326] p-3 rounded-lg group-hover/item:bg-[#1CB698]/10 transition-colors">
-                      <i className="fa-solid fa-code-branch text-[#1CB698] text-xl"></i>
-                    </div>
+                  <li className="flex items-start gap-4">
+                    <div className="bg-[#1e2326] p-3 rounded-lg"><i className="fa-solid fa-rocket text-[#1CB698]"></i></div>
                     <div>
-                      <span className="block font-bold">Desarrollo End-to-End</span>
-                      <p className="text-xs text-gray-400 mt-1 italic">Lógica de negocio sólida y persistencia de datos optimizada.</p>
+                      <span className="block font-bold">Despliegue Real</span>
+                      <p className="text-xs text-gray-400 mt-1 italic">Experiencia desplegando sistemas institucionales y control de acceso.</p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-4 group/item">
-                    <div className="bg-[#1e2326] p-3 rounded-lg group-hover/item:bg-[#1CB698]/10 transition-colors">
-                      <i className="fa-solid fa-database text-[#1CB698] text-xl"></i>
-                    </div>
+                  <li className="flex items-start gap-4">
+                    <div className="bg-[#1e2326] p-3 rounded-lg"><i className="fa-solid fa-code text-[#1CB698]"></i></div>
                     <div>
-                      <span className="block font-bold">Arquitectura de Datos</span>
-                      <p className="text-xs text-gray-400 mt-1 italic">Dominio de PostgreSQL para sistemas de alta integridad.</p>
+                      <span className="block font-bold">Código Limpio</span>
+                      <p className="text-xs text-gray-400 mt-1 italic">Arquitecturas modulares con Clean Code y buenas prácticas.</p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-4 group/item">
-                    <div className="bg-[#1e2326] p-3 rounded-lg group-hover/item:bg-[#1CB698]/10 transition-colors">
-                      <i className="fa-solid fa-rocket text-[#1CB698] text-xl"></i>
-                    </div>
+                  <li className="flex items-start gap-4">
+                    <div className="bg-[#1e2326] p-3 rounded-lg"><i className="fa-solid fa-gears text-[#1CB698]"></i></div>
                     <div>
-                      <span className="block font-bold">Transformación Digital</span>
-                      <p className="text-xs text-gray-400 mt-1 italic">Modernización de procesos con tecnología de vanguardia.</p>
+                      <span className="block font-bold">Mentalidad Ágil</span>
+                      <p className="text-xs text-gray-400 mt-1 italic">Capacidad autodidacta para adoptar nuevas tecnologías rápidamente.</p>
                     </div>
                   </li>
                 </ul>
