@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="text-[#1CB698] tracking-[5px] uppercase font-bold mb-4 text-sm md:text-base"
         >
-          Ingeniero de Software Full-Stack
+          Desarrollador Full-Stack & Ingeniero en Software
         </motion.p>
         
         <motion.h1
@@ -38,10 +38,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light"
         >
-        Construyo software escalable que convierte procesos complejos en soluciones simples y eficientes.
+          Diseño arquitecturas de software orientadas a resultados y despliego soluciones web escalables, optimizando la comunicación digital de cada proyecto.
         </motion.p>
-         
-
+          
         {/* Diferenciador */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -49,7 +48,7 @@ const Hero: React.FC = () => {
           transition={{ delay: 0.4 }}
           className="text-gray-400 max-w-xl mx-auto mb-12"
         >
-          Especializado en arquitectura de software, desarrollo Full-Stack y transformación digital orientada a resultados.
+          Comprometido con la excelencia técnica y el código limpio. Experiencia en la creación de aplicaciones dinámicas y APIs robustas utilizando React, C# (ASP.NET), Node.js y bases de datos relacionales.
         </motion.p>
 
         <motion.div

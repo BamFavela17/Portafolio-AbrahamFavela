@@ -25,13 +25,13 @@ const About: React.FC = () => {
             className="space-y-6"
           >
             <h3 className="text-2xl font-bold">
-              Ingeniero de Software en formación por la <span className="text-[#1CB698]">UES</span>
+              Desarrollador Full-Stack e <span className="text-[#1CB698]">Ingeniero de Software</span>
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Especializado en el desarrollo <span className="text-white font-semibold">Full-Stack</span> con un fuerte enfoque en la creación de soluciones escalables y el despliegue en entornos de producción reales.
+              Mi enfoque se centra en el ciclo de vida completo del desarrollo: desde la concepción de la arquitectura <span className="text-white font-semibold">Full-Stack</span> hasta el despliegue de soluciones web escalables.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Actualmente formo parte de la <span className="text-white font-semibold">Secretaría de Economía del Estado de Sonora</span>, donde gestiono proyectos web institucionales y administro infraestructura de servidores en <span className="text-white font-semibold">Windows y Ubuntu Server</span>. Mi enfoque combina la lógica sólida del backend con interfaces modernas y eficientes.
+              Me especializo en la optimización de la comunicación digital y en el diseño de arquitecturas de software orientadas a resultados. Destaco por mi mentalidad ágil y autodidacta, con capacidad demostrada para integrar nuevas tecnologías y garantizar la integridad de los datos en cada proyecto.
             </p>
             
             {/* Datos Rápidos del CV */}
@@ -49,8 +49,8 @@ const About: React.FC = () => {
                 <span className="text-sm text-gray-200">PostgreSQL, SQL Server, MySQL</span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Infraestructura</span>
-                <span className="text-sm text-gray-200">Linux & Windows Server</span>
+                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Educación</span>
+                <span className="text-sm text-gray-200">Universidad Estatal de Sonora (UES)</span>
               </div>
             </div>
             
@@ -83,7 +83,7 @@ const About: React.FC = () => {
                     <div className="bg-[#1e2326] p-3 rounded-lg"><i className="fa-solid fa-rocket text-[#1CB698]"></i></div>
                     <div>
                       <span className="block font-bold">Despliegue Real</span>
-                      <p className="text-xs text-gray-400 mt-1 italic">Experiencia desplegando sistemas institucionales y control de acceso.</p>
+                      <p className="text-xs text-gray-400 mt-1 italic">Experiencia desplegando sistemas y control de acceso.</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
