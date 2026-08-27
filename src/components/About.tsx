@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cvaf from '../assets/Abraham-CV.pdf'
+import cvaf from "../assets/Abraham-CV.pdf";
 
 const About: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const About: React.FC = () => {
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* Columna de Texto: Basada en tu Perfil Profesional */}
+          {/* Columna de Texto */}
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -46,7 +46,7 @@ const About: React.FC = () => {
               </div>
               <div>
                 <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Bases de Datos</span>
-                <span className="text-sm text-gray-200">PostgreSQL, SQL Server, MySQL</span>
+                <span className="text-sm text-gray-200">PostgreSQL, SQL Server, NoSQL & MySQL</span>
               </div>
               <div>
                 <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Educación</span>
@@ -58,6 +58,8 @@ const About: React.FC = () => {
                <a 
                 href={cvaf}
                 download="CV_Abraham_Favela.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-8 py-3 bg-[#1CB698] text-white font-bold rounded-full hover:bg-transparent hover:border-[#1CB698] border-2 border-transparent transition-all uppercase text-sm tracking-widest shadow-lg shadow-[#1CB698]/10"
               >
                 Descargar CV 
@@ -66,7 +68,7 @@ const About: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Columna de Enfoque: Basada en tu Propuesta de Valor */}
+          {/* Columna de Puntos Clave */}
           <motion.div 
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}

@@ -54,7 +54,7 @@ const Header: React.FC = () => {
             className="text-2xl font-bold text-[#1CB698] tracking-tighter transition-transform active:scale-95 block"
             style={{ fontFamily: 'Righteous, sans-serif' }}
           >
-            Abraham<span className="text-white">.</span>
+            Abraham <span className="text-white">Favela.</span>
           </a>
         </div>
 

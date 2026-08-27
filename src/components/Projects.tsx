@@ -52,9 +52,9 @@ const projects: ProjectItem[] = [
     title: "Planificate (Finanzas Personales)",
     description: "Aplicación móvil para la gestión de presupuestos. Utiliza persistencia de datos local para un rendimiento óptimo offline.",
     url: "",
-    Repo: "",
+    Repo: "https://github.com/BamFavela17/Planificador_Gastos.git",
     image: "/img/Planificador.png",
-    tags: ["React Native", "AsyncStorage", "Expo", "Flexbox"],
+    tags: ["React Native", "AsyncStorage", "Expo"],
     category: "Mobile",
   },
   {
@@ -70,7 +70,7 @@ const projects: ProjectItem[] = [
     title: "Bienes Raíces - Administración",
     description: "Plataforma de gestión inmobiliaria con un backend robusto en PHP para la administración de propiedades y vendedores.",
     url: "",
-    Repo: "",
+    Repo: "https://github.com/BamFavela17/GestionPropiedades.git",
     image: "/img/BienesRaices.png",
     tags: ["PHP", "MySQL", "SASS", "GULP"],
     category: "Web",
@@ -84,7 +84,7 @@ const projects: ProjectItem[] = [
     tags: ["HTML", "CSS", "JS", "Responsive"],
     category: "Web",
   },
-    {
+  {
     title: "Cafeteria Virtual (blog de cafe)",
     description: "Aplicacion web, que promociona un proyecto de cafetería, con un diseño moderno y atractivo",
     url: "https://blog-de-cafe-gray.vercel.app/index.html",
@@ -97,7 +97,7 @@ const projects: ProjectItem[] = [
     title: "Tienda-GuitarLA",
     description: "Aplicacion web que simula el funcionamiento de una tienda virtual",
     url: "https://tienda-en-linea-wheat.vercel.app/",
-    Repo: "",
+    Repo: "https://github.com/BamFavela17/TiendaEnLinea.git",
     image: "/img/guitarLA.png",
     tags: ["React", "Responsive", "CSS", "JSON"],
     category: "Web",
@@ -132,10 +132,11 @@ const Project: React.FC = () => {
         >
           Mi <span className="text-[#1CB698]">Portafolio</span>
         </motion.h2>
-          {/* Descripción del Portafolio */}
+
         <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
           Aquí tienes algunos de mis proyectos más destacados. Haz clic en los botones de filtro para explorar diferentes categorías.
         </p>
+
         {/* Botones de Filtro */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
           {categories.map((cat) => (

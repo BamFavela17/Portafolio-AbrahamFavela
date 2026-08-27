@@ -38,19 +38,10 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light"
         >
-          Diseño arquitecturas de software orientadas a resultados y despliego soluciones web escalables, optimizando la comunicación digital de cada proyecto.
+          Transformo ideas en aplicaciones web y móviles de alto rendimiento. Diseño arquitecturas robustas y escalables con{" "}
+          <span className="text-white font-medium">React, Node.js y C# (ASP.NET)</span>, priorizando la integridad de los datos y una experiencia de usuario impecable.
         </motion.p>
           
-        {/* Diferenciador */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="text-gray-400 max-w-xl mx-auto mb-12"
-        >
-          Comprometido con la excelencia técnica y el código limpio. Experiencia en la creación de aplicaciones dinámicas y APIs robustas utilizando React, C# (ASP.NET), Node.js y bases de datos relacionales.
-        </motion.p>
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

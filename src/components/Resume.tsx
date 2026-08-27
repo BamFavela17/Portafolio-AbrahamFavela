@@ -13,7 +13,7 @@ const resumeData: TimelineItem[] = [
   {
     title: "Desarrollo de Aplicaciones",
     company: "Exelsium",
-    period: "11/2025 - Presente",
+    period: "11/2025 - 7/2026",
     description: "Colaboración en la mejora de diseño y funcionalidad de aplicaciones de alertas escolares. Desarrollo de módulos de gestión de datos mediante el framework Blazor, optimizando la experiencia de usuario y eficiencia operativa.",
     type: "work",
   },
