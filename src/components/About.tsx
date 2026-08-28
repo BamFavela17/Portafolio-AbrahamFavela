@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cvaf from "../assets/Abraham-CV.pdf";
+import cvaf from "../assets/Abraham_Favela_CV.pdf";
 
 const About: React.FC = () => {
   return (
