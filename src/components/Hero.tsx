@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         >
           Desarrollador Full-Stack & Ingeniero en Software
         </motion.p>
-        
+
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,10 +38,16 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light"
         >
-          Transformo ideas en aplicaciones web y móviles de alto rendimiento. Diseño arquitecturas robustas y escalables con{" "}
-          <span className="text-white font-medium">React, Node.js y C# (ASP.NET)</span>, priorizando la integridad de los datos y una experiencia de usuario impecable.
+          Me especializo en todo el ciclo de vida del producto: desde el diseño
+          conceptual de arquitecturas robustas hasta el despliegue de sistemas
+          en entornos de producción reales. No solo escribo código limpio;
+          resuelvo problemas de negocio optimizando flujos digitales y
+          garantizando la integridad de los datos. Como profesional autodidacta
+          y de mentalidad ágil, me adapto con rapidez a nuevos ecosistemas
+          tecnológicos para entregar soluciones eficientes, seguras y listas
+          para escalar.
         </motion.p>
-          
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

@@ -13,7 +13,7 @@ const resumeData: TimelineItem[] = [
   {
     title: "Desarrollo de Aplicaciones",
     company: "Exelsium",
-    period: "11/2025 - 7/2026",
+    period: "11/2025 - 5/2026",
     description: "Colaboración en la mejora de diseño y funcionalidad de aplicaciones de alertas escolares. Desarrollo de módulos de gestión de datos mediante el framework Blazor, optimizando la experiencia de usuario y eficiencia operativa.",
     type: "work",
   },
@@ -41,7 +41,7 @@ const resumeData: TimelineItem[] = [
   {
     title: "Ingeniería en Software",
     company: "Universidad Estatal de Sonora (UES)",
-    period: "08/2021 - Presente",
+    period: "08/2021 - 11/2026",
     description: "Estudiante de último año con enfoque en desarrollo Full-Stack, arquitecturas escalables y gestión avanzada de bases de datos relacionales y NoSQL.",
     type: "education",
   },
@@ -50,6 +50,20 @@ const resumeData: TimelineItem[] = [
     company: "Udemy Certified",
     period: "2023 - 2024",
     description: "Especialización técnica en HTML5, CSS3, JavaScript, AJAX, PHP y MySQL para la creación de aplicaciones dinámicas.",
+    type: "education", 
+  },
+   {
+    title: "Certificación: desarrollo de aplicaciones moviles con React Native",
+    company: "Udemy Certified",
+    period: "2025 - 2026",
+    description: "Especialización en el desarrollo de aplicaciones móviles con React Native, incluyendo diseño de interfaces, integración con APIs y despliegue en plataformas Android e iOS.",
+    type: "education", 
+  },
+  {
+    title: "Certificación: desarrollo de aplicaiones web React y TypeScript",
+    company: "Udemy Certified",
+    period: "2025 - 2026",
+    description: "Especialización en el desarrollo de aplicaciones web utilizando React y TypeScript, abarcando desde la creación de componentes reutilizables hasta la gestión del estado y la integración con APIs RESTful.",
     type: "education", 
   },
 ];

@@ -29,6 +29,7 @@ const About: React.FC = () => {
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">
               Mi enfoque se centra en el ciclo de vida completo del desarrollo: desde la concepción de la arquitectura <span className="text-white font-semibold">Full-Stack</span> hasta el despliegue de soluciones web escalables.
+            
             </p>
             <p className="text-gray-300 leading-relaxed">
               Me especializo en la optimización de la comunicación digital y en el diseño de arquitecturas de software orientadas a resultados. Destaco por mi mentalidad ágil y autodidacta, con capacidad demostrada para integrar nuevas tecnologías y garantizar la integridad de los datos en cada proyecto.
@@ -57,7 +58,7 @@ const About: React.FC = () => {
             <div className="pt-4">
                <a 
                 href={cvaf}
-                download="CV_Abraham_Favela.pdf"
+                download="Abraham_Alejandro_Favela_Fernández_cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-8 py-3 bg-[#1CB698] text-white font-bold rounded-full hover:bg-transparent hover:border-[#1CB698] border-2 border-transparent transition-all uppercase text-sm tracking-widest shadow-lg shadow-[#1CB698]/10"
