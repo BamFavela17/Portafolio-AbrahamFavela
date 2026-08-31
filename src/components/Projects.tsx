@@ -57,8 +57,8 @@ const projects: ProjectItem[] = [
     description:
       "Videojuego 2D con enfoque educativo. Implementación de mecánicas de disparo, IA de enemigos y físicas personalizadas en Unity.",
     url: "",
-    Repo: "",
-    image: "",
+    Repo: "https://github.com/BamFavela17/Invacion_Covicho_juego.git",
+    image: "/img/invacionCovicho.png",
     tags: ["Unity", "C#", "GameDev", "2D Physics"],
     category: "Videojuegos",
   },
