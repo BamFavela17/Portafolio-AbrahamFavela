@@ -14,9 +14,9 @@ function App() {
       <main>
         <Hero/>
         <About />
+        <Skills />
         <Project />
         <Resume/>
-        <Skills />
         <Contact />
       </main>
       <footer className="bg-[#1e2326] py-8 text-center text-gray-500 text-sm border-t border-gray-800">

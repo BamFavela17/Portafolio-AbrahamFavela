@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cvaf from "../assets/Abraham_Favela_CV.pdf";
+import cvaf from "../assets/Abraham_Alejandro_Favela_Fernandez_CV.pdf";
 
 const About: React.FC = () => {
   return (
@@ -43,7 +43,7 @@ const About: React.FC = () => {
               </div>
               <div>
                 <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Stack Principal</span>
-                <span className="text-sm text-gray-200">C#, React, Node.js, Laravel</span>
+                <span className="text-sm text-gray-200">React, React native, laravel, Node.js y PHP </span>
               </div>
               <div>
                 <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">Bases de Datos</span>

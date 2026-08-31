@@ -70,7 +70,7 @@ const resumeData: TimelineItem[] = [
 
 const Resume: React.FC = () => {
   return (
-    <section id="curriculum" className="py-20 bg-[#252a2e] text-white">
+    <section id="curriculum" className="py-20 bg-[#1e2326] text-white">
       <div className="max-w-[1100px] mx-auto px-5">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}

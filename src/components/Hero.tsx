@@ -38,14 +38,11 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light"
         >
-          Me especializo en todo el ciclo de vida del producto: desde el diseño
-          conceptual de arquitecturas robustas hasta el despliegue de sistemas
-          en entornos de producción reales. No solo escribo código limpio;
-          resuelvo problemas de negocio optimizando flujos digitales y
-          garantizando la integridad de los datos. Como profesional autodidacta
-          y de mentalidad ágil, me adapto con rapidez a nuevos ecosistemas
-          tecnológicos para entregar soluciones eficientes, seguras y listas
-          para escalar.
+          Soy un apasionado desarrollador Full-Stack e Ingeniero en Software con
+          experiencia en la creación de soluciones web y móviles. Me especializo
+          en el desarrollo de aplicaciones escalables y eficientes, siempre
+          buscando aprender y aplicar nuevas tecnologías para resolver problemas
+          complejos.
         </motion.p>
 
         <motion.div
