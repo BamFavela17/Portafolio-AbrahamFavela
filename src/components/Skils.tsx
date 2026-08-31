@@ -17,7 +17,6 @@ const skills: Skill[] = [
 
   // Mobile
   { name: 'React Native', category: 'Mobile', icon: 'fa-brands fa-react', isCentralStock: true },
-  { name: 'Flutter', category: 'Mobile', icon: 'fa-solid fa-mobile-screen' },
   { name: 'Android Studio', category: 'Mobile', icon: 'fa-brands fa-android' },
 
   // Backend
