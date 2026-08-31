@@ -33,13 +33,13 @@ const projects: ProjectItem[] = [
     category: "Web",
   },
   {
-    title: "Gestión de Inventarios - Tostitos El Rey",
+    title: "Control de Inventario y Agenda de Rentas",
     description:
-      "Arquitectura MVC para el control de stock, generación de reportes financieros y automatización de alertas de reabastecimiento.",
+      "Arquitectura MVC para el control inventario de coches y agenda de rentas. Incluye autenticación de usuarios y panel administrativo para la gestión de clientes y vehículos.",
     url: "",
-    Repo: "",
-    image: "",
-    tags: ["ASP.NET", "C#", "SQL Server", "Business Logic"],
+    Repo: "https://github.com/BamFavela17/rent_car_DA.git",
+    image: "/img/RentCar.png",
+    tags: ["Npde.js", "PosgreSql", "React/vite", "JWT", "Cookies","TailwindCSS", "API Rest","Express"],
     category: "Sistemas",
   },
   {
@@ -70,7 +70,7 @@ const projects: ProjectItem[] = [
     Repo: "https://github.com/BamFavela17/GestionPropiedades.git",
     image: "/img/BienesRaices.png",
     tags: ["PHP", "MySQL", "SASS", "GULP"],
-    category: "Web",
+    category: "Sistemas",
   },
   {
     title: "Vamos Turisteando",
@@ -112,6 +112,16 @@ const projects: ProjectItem[] = [
     tags: ["React Native", "Expo", "TailwindCSS", "AsyncStorage"],
     category: "Mobile",
   },
+  {
+    title: "App Chat-online",
+    description:
+      "Aplicacion de chat que crea una comunicacion ",
+    url: "",
+    Repo: "",
+    image: "",
+    tags: ["Kotlin", "AndroidStudio", "Google auth", "Firebase"],
+    category: "Mobile",
+  }
 ];
 
 const Project: React.FC = () => {
