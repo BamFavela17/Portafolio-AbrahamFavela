@@ -89,7 +89,17 @@ const projects: ProjectItem[] = [
     url: "https://vamosturistiando.netlify.app/",
     Repo: "",
     image: "/img/vamosTuristiando.png",
-    tags: ["HTML", "CSS", "JS", "Responsive"],
+    tags: ["HTML", "SASS", "JS", ""],
+    category: "Web",
+  },
+  {
+    title: "Festival de Música",
+    description:
+      "Página web para la promoción de un festival de música, con diseño responsive y funcionalidades interactivas.",
+    url: "https://festival-musica-sass-web.netlify.app/",
+    Repo: "",
+    image: "/img/FestivalMusica.png",
+    tags: ["HTML", "SASS", "APIs", "Server Management"],
     category: "Web",
   },
   {
