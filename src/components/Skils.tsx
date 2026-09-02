@@ -24,7 +24,7 @@ const skills: Skill[] = [
   { name: 'Java', category: 'Backend', icon: 'fa-brands fa-java' },
   { name: 'Node.js', category: 'Backend', icon: 'fa-brands fa-node-js', isCentralStock: true },
   { name: 'PHP / Laravel', category: 'Backend', icon: 'fa-brands fa-laravel', isCentralStock: true },
-  { name: 'RESTful APIs', category: 'Backend', icon: 'fa-solid fa-cloud-arrow-down' },
+  { name: 'RESTful APIs', category: 'Backend', icon: 'fa-solid fa-cloud-arrow-down',isCentralStock: true  },
 
   // Bases de Datos
   { name: 'PostgreSQL', category: 'Database', icon: 'fa-solid fa-database' },
@@ -38,7 +38,7 @@ const skills: Skill[] = [
   { name: 'Microservicios', category: 'Arquitectura', icon: 'fa-solid fa-network-wired' },
   { name: 'Arquitectura Limpia', category: 'Arquitectura', icon: 'fa-solid fa-layer-group' },
   { name: 'SOA', category: 'Arquitectura', icon: 'fa-solid fa-network-wired' },
-  { name: 'Cliente-Servidor', category: 'Arquitectura', icon: 'fa-solid fa-server' },
+  { name: 'Cliente-Servidor', category: 'Arquitectura', icon: 'fa-solid fa-server', isCentralStock: true },
 
   // DevOps & Otros
   { name: 'Git / GitHub', category: 'DevOps & Tools', icon: 'fa-brands fa-github', isCentralStock: true },
