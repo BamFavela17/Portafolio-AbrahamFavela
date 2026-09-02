@@ -27,7 +27,7 @@ const projects: ProjectItem[] = [
     description:
       "Sistema de gestión de ventas e inventario para un negocio de mariscos. Incluye autenticación de usuarios, panel administrativo y registro de ventas con reportes detallados.",
     url: "",
-    Repo: "",
+    Repo: "https://github.com/Yisus550/proy_caguamanta/tree/dev",
     image: "/img/ProyCahuamanta.png",
     tags: ["ASP.NET Core", "SQL Server", "Bootstrap", "MVC", "Entity Framework","DataAnnotations"],
     category: "Sistemas",

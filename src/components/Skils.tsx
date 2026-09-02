@@ -67,7 +67,7 @@ const itemVariants = {
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-20 bg-[#1e2326] overflow-hidden">
-      <div className="max-w-[1100px] mx-auto px-5">
+      <div className="max-w-275 mx-auto px-5">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -109,7 +109,7 @@ const Skills: React.FC = () => {
                       className={`bg-[#252a2e] p-6 rounded-xl border-b-4 border-transparent hover:border-[#1CB698] transition-all group shadow-xl flex flex-col items-center justify-center text-center ${skill.isCentralStock ? 'border-[#D4AF37]' : ''}`}
                     >
                       <div className="relative mb-4">
-                        <div className={`text-2xl text-gray-500 group-hover:text-[#1CB698] transition-colors ${skill.isCentralStock ? '!text-[#D4AF37] group-hover:!text-[#D4AF37]' : ''}`}>
+                        <div className={`text-2xl text-gray-500 group-hover:text-[#1CB698] transition-colors ${skill.isCentralStock ? 'text-[#D4AF37]! group-hover:text-[#D4AF37]!' : ''}`}>
                           <i className={skill.icon}></i>
                         </div>
                         
@@ -118,7 +118,7 @@ const Skills: React.FC = () => {
                         )}
                       </div>
                       
-                      <h4 className={`text-white text-sm font-bold group-hover:text-[#1CB698] transition-colors leading-tight ${skill.isCentralStock ? '!text-[#D4AF37] group-hover:!text-[#D4AF37]' : ''}`}>
+                      <h4 className={`text-white text-sm font-bold group-hover:text-[#1CB698] transition-colors leading-tight ${skill.isCentralStock ? 'text-[#D4AF37]! group-hover:text-[#D4AF37]!' : ''}`}>
                         {skill.name}
                       </h4>
                     </motion.div>

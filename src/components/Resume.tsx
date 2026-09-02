@@ -32,10 +32,10 @@ const resumeData: TimelineItem[] = [
     type: "work",
   },
   {
-    title: "Sistema de Gestión de Inventarios",
-    company: "Tostitos El Rey",
+    title: "Sistema de Gestion de negocio (La cruda y mas)",
+    company: "La cruda y mas",
     period: "2024",
-    description: "Diseño y ejecución de un sistema integral basado en ASP.NET para el control de existencias, optimizando la operatividad de la empresa.",
+    description: "Desarrollo de un sistema integral para la gestión de negocio, optimizando los procesos operativos y mejorando la eficiencia en la toma de decisiones.",
     type: "work",
   },
   {
@@ -55,14 +55,14 @@ const resumeData: TimelineItem[] = [
    {
     title: "Certificación: desarrollo de aplicaciones moviles con React Native",
     company: "Udemy Certified",
-    period: "2025 - 2026",
+    period: "2026",
     description: "Especialización en el desarrollo de aplicaciones móviles con React Native, incluyendo diseño de interfaces, integración con APIs y despliegue en plataformas Android e iOS.",
     type: "education", 
   },
   {
     title: "Certificación: desarrollo de aplicaiones web React y TypeScript",
     company: "Udemy Certified",
-    period: "2025 - 2026",
+    period: "2026",
     description: "Especialización en el desarrollo de aplicaciones web utilizando React y TypeScript, abarcando desde la creación de componentes reutilizables hasta la gestión del estado y la integración con APIs RESTful.",
     type: "education", 
   },
@@ -71,7 +71,7 @@ const resumeData: TimelineItem[] = [
 const Resume: React.FC = () => {
   return (
     <section id="curriculum" className="py-20 bg-[#1e2326] text-white">
-      <div className="max-w-[1100px] mx-auto px-5">
+      <div className="max-w-275 mx-auto px-5">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ const Resume: React.FC = () => {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  className="relative pl-8 before:content-[''] before:absolute before:left-[-9px] before:top-1 before:w-4 before:h-4 before:bg-[#1CB698] before:rounded-full"
+                  className="relative pl-8 before:content-[''] before:absolute before:-left-2.25 before:top-1 before:w-4 before:h-4 before:bg-[#1CB698] before:rounded-full"
                 >
                   <span className="text-[#1CB698] font-bold text-xs uppercase tracking-wider">{item.period}</span>
                   <h4 className="text-xl font-bold mt-1">{item.title}</h4>
@@ -118,7 +118,7 @@ const Resume: React.FC = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="relative pl-8 before:content-[''] before:absolute before:left-[-9px] before:top-1 before:w-4 before:h-4 before:bg-[#1CB698] before:rounded-full"
+                  className="relative pl-8 before:content-[''] before:absolute before:-left-2.25 before:top-1 before:w-4 before:h-4 before:bg-[#1CB698] before:rounded-full"
                 >
                   <span className="text-[#1CB698] font-bold text-xs uppercase tracking-wider">{item.period}</span>
                   <h4 className="text-xl font-bold mt-1">{item.title}</h4>
