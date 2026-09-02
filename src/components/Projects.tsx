@@ -23,6 +23,16 @@ const projects: ProjectItem[] = [
     category: "Sistemas",
   },
   {
+    title: "Sistema de venta e inventario - Negocio de mariscos",
+    description:
+      "Sistema de gestión de ventas e inventario para un negocio de mariscos. Incluye autenticación de usuarios, panel administrativo y registro de ventas con reportes detallados.",
+    url: "",
+    Repo: "",
+    image: "/img/ProyCahuamanta.png",
+    tags: ["ASP.NET Core", "SQL Server", "Bootstrap", "MVC", "Entity Framework"],
+    category: "Sistemas",
+  },
+  {
     title: "Plataformas Web - Secretaría de Economía",
     description:
       "Modernización de servicios digitales institucionales. Implementación de servidores SMTP, integración de WhatsApp API y optimización de flujos de usuario.",
