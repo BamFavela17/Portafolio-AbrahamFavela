@@ -29,7 +29,7 @@ const projects: ProjectItem[] = [
     url: "",
     Repo: "",
     image: "/img/ProyCahuamanta.png",
-    tags: ["ASP.NET Core", "SQL Server", "Bootstrap", "MVC", "Entity Framework"],
+    tags: ["ASP.NET Core", "SQL Server", "Bootstrap", "MVC", "Entity Framework","DataAnnotations"],
     category: "Sistemas",
   },
   {
@@ -49,7 +49,7 @@ const projects: ProjectItem[] = [
     url: "",
     Repo: "https://github.com/BamFavela17/rent_car_DA.git",
     image: "/img/RentCar.png",
-    tags: ["Npde.js", "PosgreSql", "React/vite", "JWT", "Cookies","TailwindCSS", "API Rest","Express"],
+    tags: ["Node.js", "PostgreSQL", "React/vite", "JWT", "Cookies","TailwindCSS", "API Rest","Express"],
     category: "Sistemas",
   },
   {
@@ -145,7 +145,7 @@ const Project: React.FC = () => {
 
   return (
     <section id="portfolio" className="py-20 bg-[#252a2e]">
-      <div className="max-w-[1100px] mx-auto px-5">
+      <div className="max-w-275 mx-auto px-5">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -203,17 +203,17 @@ const Project: React.FC = () => {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                     />
                   ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-[#1CB698]/20 to-[#1e2326] flex items-center justify-center">
+                    <div className="w-full h-full bg-linear-to-br from-[#1CB698]/20 to-[#1e2326] flex items-center justify-center">
                       <i className="fa-solid fa-laptop-code text-5xl text-[#1CB698]"></i>
                     </div>
                   )}
                 </div>
 
-                <div className="p-6 flex flex-col flex-grow">
+                <div className="p-6 flex flex-col grow">
                   <h3 className="text-white text-xl font-bold mb-3">
                     {project.title}
                   </h3>
-                  <p className="text-gray-400 text-sm mb-4 leading-relaxed flex-grow">
+                  <p className="text-gray-400 text-sm mb-4 leading-relaxed grow">
                     {project.description}
                   </p>
 
