@@ -89,7 +89,7 @@ const projects: ProjectItem[] = [
     url: "https://vamosturistiando.netlify.app/",
     Repo: "",
     image: "/img/vamosTuristiando.png",
-    tags: ["HTML", "SASS", "JS", ""],
+    tags: ["HTML", "CSS", "JS", "Responsive Design"],
     category: "Web",
   },
   {
