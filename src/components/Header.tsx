@@ -51,7 +51,7 @@ const Header: React.FC = () => {
         <div className="z-110">
           <a 
             href="#inicio" 
-            className="text-2xl font-bold text-[#1CB698] tracking-tighter transition-transform active:scale-95 block"
+            className="text-2xl font-bold text-[#9338f3] tracking-tighter transition-transform active:scale-95 block"
             style={{ fontFamily: 'Righteous, sans-serif' }}
           >
             Abraham <span className="text-white">Favela.</span>
@@ -65,10 +65,10 @@ const Header: React.FC = () => {
               <li key={item.href}>
                 <a 
                   href={item.href}
-                  className="text-white text-[11px] font-bold uppercase tracking-[2px] hover:text-[#1CB698] transition-colors relative group"
+                  className="text-white text-[11px] font-bold uppercase tracking-[2px] hover:text-[#9338f3] transition-colors relative group"
                 >
                   {item.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#1CB698] transition-all group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#9338f3] transition-all group-hover:w-full"></span>
                 </a>
               </li>
             ))}
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
         {/* Mobile Toggle */}
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden z-110 p-2 text-[#1CB698] transition-transform active:scale-90"
+          className="md:hidden z-110 p-2 text-[#9338f3] transition-transform active:scale-90"
         >
           <i className={`fa-solid ${isMenuOpen ? 'fa-xmark' : 'fa-bars-staggered'} text-2xl`}></i>
         </button>
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
                 <a 
                   href={item.href}
                   onClick={handleLinkClick}
-                  className="text-white text-2xl font-black uppercase tracking-[4px] active:text-[#1CB698]"
+                  className="text-white text-2xl font-black uppercase tracking-[4px] active:text-[#9338f3]"
                 >
                   {item.label}
                 </a>

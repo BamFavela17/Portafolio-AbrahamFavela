@@ -74,7 +74,7 @@ const Skills: React.FC = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center text-white mb-16 uppercase tracking-widest"
         >
-          Mis <span className="text-[#1CB698]">Skills</span>
+          Mis <span className="text-[#b173f3]">Skills</span>
         </motion.h2>
         
         <div className="space-y-16">
@@ -89,7 +89,7 @@ const Skills: React.FC = () => {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  className="text-2xl font-semibold text-white mb-6 border-l-4 border-[#1CB698] pl-3"
+                  className="text-2xl font-semibold text-white mb-6 border-l-4 border-[#b173f3] pl-3"
                 >
                   {category}
                 </motion.h3>
@@ -106,10 +106,10 @@ const Skills: React.FC = () => {
                       key={skill.name}
                       variants={itemVariants}
                       whileHover={{ y: -5 }}
-                      className={`bg-[#252a2e] p-6 rounded-xl border-b-4 border-transparent hover:border-[#1CB698] transition-all group shadow-xl flex flex-col items-center justify-center text-center ${skill.isCentralStock ? 'border-[#D4AF37]' : ''}`}
+                      className={`bg-[#252a2e] p-6 rounded-xl border-b-4 border-transparent hover:border-[#b173f3] transition-all group shadow-xl flex flex-col items-center justify-center text-center ${skill.isCentralStock ? 'border-[#D4AF37]' : ''}`}
                     >
                       <div className="relative mb-4">
-                        <div className={`text-2xl text-gray-500 group-hover:text-[#1CB698] transition-colors ${skill.isCentralStock ? 'text-[#D4AF37]! group-hover:text-[#D4AF37]!' : ''}`}>
+                        <div className={`text-2xl text-gray-500 group-hover:text-[#b173f3] transition-colors ${skill.isCentralStock ? 'text-[#D4AF37]! group-hover:text-[#D4AF37]!' : ''}`}>
                           <i className={skill.icon}></i>
                         </div>
                         
@@ -118,7 +118,7 @@ const Skills: React.FC = () => {
                         )}
                       </div>
                       
-                      <h4 className={`text-white text-sm font-bold group-hover:text-[#1CB698] transition-colors leading-tight ${skill.isCentralStock ? 'text-[#D4AF37]! group-hover:text-[#D4AF37]!' : ''}`}>
+                      <h4 className={`text-white text-sm font-bold group-hover:text-[#b173f3] transition-colors leading-tight ${skill.isCentralStock ? 'text-[#D4AF37]! group-hover:text-[#D4AF37]!' : ''}`}>
                         {skill.name}
                       </h4>
                     </motion.div>

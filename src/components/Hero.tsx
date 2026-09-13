@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
     >
       {/* Decoración de fondo sutil */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-20">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-[#1CB698] blur-[120px]"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] rounded-full bg-[#1CB698] blur-[100px]"></div>
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-[#9338f3] blur-[120px]"></div>
+        <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] rounded-full bg-[#9338f3] blur-[100px]"></div>
       </div>
 
       <div className="relative z-10 max-w-275 mx-auto px-5 text-center">
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-[#1CB698] tracking-[5px] uppercase font-bold mb-4 text-sm md:text-base"
+          className="text-[#9338f3] tracking-[5px] uppercase font-bold mb-4 text-sm md:text-base"
         >
           Desarrollador Full-Stack & Ingeniero en Software
         </motion.p>
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-8xl font-black text-white mb-8 tracking-tighter"
         >
-          SOY <span className="text-[#1CB698]">ABRAHAM FAVELA</span>
+          SOY <span className="text-[#9338f3]">ABRAHAM FAVELA</span>
         </motion.h1>
 
         <motion.p
@@ -53,14 +53,14 @@ const Hero: React.FC = () => {
         >
           <a
             href="#portfolio"
-            className="group px-10 py-4 bg-[#1CB698] text-white font-bold rounded-full hover:bg-transparent hover:border-[#1CB698] border-2 border-transparent transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2"
+            className="group px-10 py-4 bg-[#9338f3] text-white font-bold rounded-full hover:bg-transparent hover:border-[#9338f3] border-2 border-transparent transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2"
           >
             Ver Proyectos
             <i className="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
           </a>
           <a
             href="#contacto"
-            className="px-10 py-4 border-2 border-gray-600 text-white font-bold rounded-full hover:border-[#1CB698] hover:text-[#1CB698] transition-all uppercase tracking-widest text-sm flex items-center justify-center"
+            className="px-10 py-4 border-2 border-gray-600 text-white font-bold rounded-full hover:border-[#9338f3] hover:text-[#9338f3] transition-all uppercase tracking-widest text-sm flex items-center justify-center"
           >
             Contactar
           </a>
@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
         transition={{ delay: 1.2, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:block"
       >
-        <div className="w-0.5 h-12 bg-linear-to-b from-[#1CB698] to-transparent mx-auto"></div>
+        <div className="w-0.5 h-12 bg-linear-to-b from-[#9338f3] to-transparent mx-auto"></div>
       </motion.div>
     </section>
   );

@@ -162,7 +162,7 @@ const Project: React.FC = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center text-white mb-8 uppercase tracking-widest"
         >
-          Mi <span className="text-[#1CB698]">Portafolio</span>
+          Mi <span className="text-[#b173f3]">Portafolio</span>
         </motion.h2>
 
         <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
@@ -180,8 +180,8 @@ const Project: React.FC = () => {
               onClick={() => setFilter(cat)}
               className={`px-6 py-2 rounded-full border-2 transition-all font-bold uppercase text-xs tracking-widest ${
                 filter === cat
-                  ? "bg-[#1CB698] border-[#1CB698] text-white"
-                  : "border-gray-600 text-gray-400 hover:border-[#1CB698] hover:text-[#1CB698]"
+                  ? "bg-[#b173f3] border-[#b173f3] text-white"
+                  : "border-gray-600 text-gray-400 hover:border-[#b173f3] hover:text-[#b173f3]"
               }`}
             >
               {cat}
@@ -213,8 +213,8 @@ const Project: React.FC = () => {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                     />
                   ) : (
-                    <div className="w-full h-full bg-linear-to-br from-[#1CB698]/20 to-[#1e2326] flex items-center justify-center">
-                      <i className="fa-solid fa-laptop-code text-5xl text-[#1CB698]"></i>
+                    <div className="w-full h-full bg-linear-to-br from-[#b173f3]/20 to-[#1e2326] flex items-center justify-center">
+                      <i className="fa-solid fa-laptop-code text-5xl text-[#b173f3]"></i>
                     </div>
                   )}
                 </div>
@@ -231,7 +231,7 @@ const Project: React.FC = () => {
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="text-[10px] bg-[#1CB698]/10 text-[#1CB698] px-2 py-1 rounded border border-[#1CB698]/30 font-bold uppercase"
+                        className="text-[10px] bg-[#b173f3]/10 text-[#b173f3] px-2 py-1 rounded border border-[#b173f3]/30 font-bold uppercase"
                       >
                         {tag}
                       </span>
@@ -244,7 +244,7 @@ const Project: React.FC = () => {
                         href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-[#1CB698] text-xs font-bold hover:underline inline-flex items-center gap-1"
+                        className="text-[#b173f3] text-xs font-bold hover:underline inline-flex items-center gap-1"
                       >
                         VER PROYECTO{" "}
                         <i className="fa-solid fa-external-link text-[10px]"></i>
@@ -255,7 +255,7 @@ const Project: React.FC = () => {
                         href={project.Repo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-[#1CB698] text-xs font-bold hover:underline inline-flex items-center gap-1"
+                        className="text-[#b173f3] text-xs font-bold hover:underline inline-flex items-center gap-1"
                       >
                         VER REPOSITORIO{" "}
                         <i className="fa-brands fa-github text-[12px]"></i>

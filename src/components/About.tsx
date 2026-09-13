@@ -15,7 +15,7 @@ const About: React.FC = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center mb-16 uppercase tracking-widest"
         >
-          Sobre <span className="text-[#1CB698]">Mí</span>
+          Sobre <span className="text-[#9338f3]">Mí</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -29,7 +29,7 @@ const About: React.FC = () => {
           >
             <h3 className="text-2xl font-bold">
               Desarrollador Full-Stack e{" "}
-              <span className="text-[#1CB698]">Ingeniero de Software</span>
+              <span className="text-[#9338f3]">Ingeniero de Software</span>
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">
               Me apasiona transformar retos complejos en realidades; cuando un
@@ -49,7 +49,7 @@ const About: React.FC = () => {
             {/* Datos Rápidos del CV */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6 border-t border-gray-700/50">
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
+                <span className="block text-[#9338f3] font-bold uppercase text-[10px] tracking-[2px] mb-1">
                   Especialidad
                 </span>
                 <span className="text-sm text-gray-200">
@@ -57,7 +57,7 @@ const About: React.FC = () => {
                 </span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
+                <span className="block text-[#9338f3] font-bold uppercase text-[10px] tracking-[2px] mb-1">
                   Stack Principal
                 </span>
                 <span className="text-sm text-gray-200">
@@ -65,7 +65,7 @@ const About: React.FC = () => {
                 </span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
+                <span className="block text-[#9338f3] font-bold uppercase text-[10px] tracking-[2px] mb-1">
                   Bases de Datos
                 </span>
                 <span className="text-sm text-gray-200">
@@ -73,7 +73,7 @@ const About: React.FC = () => {
                 </span>
               </div>
               <div>
-                <span className="block text-[#1CB698] font-bold uppercase text-[10px] tracking-[2px] mb-1">
+                <span className="block text-[#9338f3] font-bold uppercase text-[10px] tracking-[2px] mb-1">
                   Educación
                 </span>
                 <span className="text-sm text-gray-200">
@@ -88,7 +88,7 @@ const About: React.FC = () => {
                 download="Abraham_Alejandro_Favela_Fernández_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-8 py-3 bg-[#1CB698] text-white font-bold rounded-full hover:bg-transparent hover:border-[#1CB698] border-2 border-transparent transition-all uppercase text-sm tracking-widest shadow-lg shadow-[#1CB698]/10"
+                className="group inline-flex items-center gap-2 px-8 py-3 bg-[#9338f3] text-white font-bold rounded-full hover:bg-transparent hover:border-[#9338f3] border-2 border-transparent transition-all uppercase text-sm tracking-widest shadow-lg shadow-[#9338f3]/10"
               >
                 Descargar CV
                 <i className="fa-solid fa-download group-hover:translate-y-1 transition-transform"></i>
@@ -105,15 +105,15 @@ const About: React.FC = () => {
             className="flex justify-center"
           >
             <div className="relative group w-full max-w-md">
-              <div className="absolute -inset-1 bg-[#1CB698] rounded-2xl blur opacity-10 group-hover:opacity-30 transition duration-1000"></div>
+              <div className="absolute -inset-1 bg-[#9338f3] rounded-2xl blur opacity-10 group-hover:opacity-30 transition duration-1000"></div>
               <div className="relative bg-[#2b3136] p-8 rounded-2xl border border-gray-700 shadow-2xl">
-                <h4 className="text-3xl font-bold mb-8 text-center text-[#1CB698] tracking-widest uppercase">
+                <h4 className="text-3xl font-bold mb-8 text-center text-[#9338f3] tracking-widest uppercase">
                   Puntos Clave
                 </h4>
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4">
                     <div className="bg-[#1e2326] p-3 rounded-lg">
-                      <i className="fa-solid fa-rocket text-[#1CB698]"></i>
+                      <i className="fa-solid fa-rocket text-[#9338f3]"></i>
                     </div>
                     <div>
                       <span className="block font-bold">Despliegue Real</span>
@@ -125,7 +125,7 @@ const About: React.FC = () => {
                   </li>
                   <li className="flex items-start gap-4">
                     <div className="bg-[#1e2326] p-3 rounded-lg">
-                      <i className="fa-solid fa-code text-[#1CB698]"></i>
+                      <i className="fa-solid fa-code text-[#9338f3]"></i>
                     </div>
                     <div>
                       <span className="block font-bold">Código Limpio</span>
@@ -137,7 +137,7 @@ const About: React.FC = () => {
                   </li>
                   <li className="flex items-start gap-4">
                     <div className="bg-[#1e2326] p-3 rounded-lg">
-                      <i className="fa-solid fa-gears text-[#1CB698]"></i>
+                      <i className="fa-solid fa-gears text-[#9338f3]"></i>
                     </div>
                     <div>
                       <span className="block font-bold">Mentalidad Ágil</span>

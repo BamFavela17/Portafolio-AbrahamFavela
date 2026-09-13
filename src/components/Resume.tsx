@@ -78,14 +78,14 @@ const Resume: React.FC = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center mb-16 uppercase tracking-widest"
         >
-          Mi <span className="text-[#1CB698]">Trayectoria</span>
+          Mi <span className="text-[#9338f3]">Trayectoria</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-10">
           {/* Columna Educación y Cursos */}
           <div>
             <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
-              <i className="fa-solid fa-graduation-cap text-[#1CB698]"></i> Educación & Certificaciones
+              <i className="fa-solid fa-graduation-cap text-[#9338f3]"></i> Educación & Certificaciones
             </h3>
             <div className="space-y-8 border-l-2 border-gray-700 ml-4">
               {resumeData.filter(item => item.type === "education").map((item, index) => (
@@ -94,9 +94,9 @@ const Resume: React.FC = () => {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  className="relative pl-8 before:content-[''] before:absolute before:-left-2.25 before:top-1 before:w-4 before:h-4 before:bg-[#1CB698] before:rounded-full"
+                  className="relative pl-8 before:content-[''] before:absolute before:-left-2.25 before:top-1 before:w-4 before:h-4 before:bg-[#9338f3] before:rounded-full"
                 >
-                  <span className="text-[#1CB698] font-bold text-xs uppercase tracking-wider">{item.period}</span>
+                  <span className="text-[#9338f3] font-bold text-xs uppercase tracking-wider">{item.period}</span>
                   <h4 className="text-xl font-bold mt-1">{item.title}</h4>
                   <p className="text-gray-400 font-medium mb-2">{item.company}</p>
                   <p className="text-gray-500 text-sm leading-relaxed">{item.description}</p>
@@ -108,7 +108,7 @@ const Resume: React.FC = () => {
           {/* Columna Experiencia Laboral */}
           <div>
             <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
-              <i className="fa-solid fa-briefcase text-[#1CB698]"></i> Experiencia Profesional
+              <i className="fa-solid fa-briefcase text-[#9338f3]"></i> Experiencia Profesional
             </h3>
             <div className="space-y-8 border-l-2 border-gray-700 ml-4">
               {resumeData.filter(item => item.type === "work").map((item, index) => (
@@ -118,9 +118,9 @@ const Resume: React.FC = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="relative pl-8 before:content-[''] before:absolute before:-left-2.25 before:top-1 before:w-4 before:h-4 before:bg-[#1CB698] before:rounded-full"
+                  className="relative pl-8 before:content-[''] before:absolute before:-left-2.25 before:top-1 before:w-4 before:h-4 before:bg-[#9338f3] before:rounded-full"
                 >
-                  <span className="text-[#1CB698] font-bold text-xs uppercase tracking-wider">{item.period}</span>
+                  <span className="text-[#9338f3] font-bold text-xs uppercase tracking-wider">{item.period}</span>
                   <h4 className="text-xl font-bold mt-1">{item.title}</h4>
                   <p className="text-gray-400 font-medium mb-2">{item.company}</p>
                   <p className="text-gray-500 text-sm leading-relaxed">{item.description}</p>

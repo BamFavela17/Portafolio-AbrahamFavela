@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
           className="text-4xl font-bold text-center text-white mb-16 uppercase tracking-widest"
         >
           ¿Listo para{" "}
-          <span className="text-[#1CB698]">construir algo increíble</span>{" "}
+          <span className="text-[#9338f3]">construir algo increíble</span>{" "}
           juntos?
         </motion.h2>
 
@@ -57,12 +57,12 @@ const Contact: React.FC = () => {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-[#1CB698] font-bold uppercase text-[10px] tracking-[3px] mb-6">
+              <h3 className="text-[#9338f3] font-bold uppercase text-[10px] tracking-[3px] mb-6">
                 Actualmente resido en:
               </h3>
               <ul className="space-y-8">
                 <li className="flex items-center gap-4 group">
-                  <div className="bg-[#1e2326] w-12 h-12 flex items-center justify-center rounded-full text-[#1CB698] group-hover:bg-[#1CB698] group-hover:text-white transition-all duration-300 shadow-lg">
+                  <div className="bg-[#1e2326] w-12 h-12 flex items-center justify-center rounded-full text-[#9338f3] group-hover:bg-[#9338f3] group-hover:text-white transition-all duration-300 shadow-lg">
                     <i className="fa-solid fa-location-dot"></i>
                   </div>
                   <div>
@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
             </div>
 
             <div>
-              <h3 className="text-[#1CB698] font-bold uppercase text-[10px] tracking-[3px] mb-6">
+              <h3 className="text-[#9338f3] font-bold uppercase text-[10px] tracking-[3px] mb-6">
                 Presencia Digital
               </h3>
               <div className="flex gap-4">
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
                     href={social.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-15 h-15 bg-[#1e2326] flex items-center justify-center rounded-4xl text-white hover:bg-[#1CB698] hover:-translate-y-1 transition-all duration-300 border border-gray-800"
+                    className="w-15 h-15 bg-[#1e2326] flex items-center justify-center rounded-4xl text-white hover:bg-[#9338f3] hover:-translate-y-1 transition-all duration-300 border border-gray-800"
                   >
                     <i className={`fa-brands ${social.icon} text-lg`}></i>
                   </a>
@@ -131,7 +131,7 @@ const Contact: React.FC = () => {
                     name="user_name"
                     type="text"
                     placeholder="Ej. Juan Pérez"
-                    className="w-full bg-[#252a2e] text-white p-4 rounded-2xl focus:ring-2 focus:ring-[#1CB698]/50 outline-none border border-gray-700/50 focus:border-[#1CB698] transition-all placeholder:text-gray-600"
+                    className="w-full bg-[#252a2e] text-white p-4 rounded-2xl focus:ring-2 focus:ring-[#9338f3]/50 outline-none border border-gray-700/50 focus:border-[#9338f3] transition-all placeholder:text-gray-600"
                   />
                 </div>
                 <div className="space-y-2">
@@ -147,7 +147,7 @@ const Contact: React.FC = () => {
                     name="user_email"
                     type="email"
                     placeholder="correo@empresa.com"
-                    className="w-full bg-[#252a2e] text-white p-4 rounded-2xl focus:ring-2 focus:ring-[#1CB698]/50 outline-none border border-gray-700/50 focus:border-[#1CB698] transition-all placeholder:text-gray-600"
+                    className="w-full bg-[#252a2e] text-white p-4 rounded-2xl focus:ring-2 focus:ring-[#9338f3]/50 outline-none border border-gray-700/50 focus:border-[#9338f3] transition-all placeholder:text-gray-600"
                   />
                 </div>
               </div>
@@ -164,7 +164,7 @@ const Contact: React.FC = () => {
                   name="user_message"
                   placeholder="Cuéntame sobre tu proyecto..."
                   rows={5}
-                  className="w-full bg-[#252a2e] text-white p-4 rounded-2xl focus:ring-2 focus:ring-[#1CB698]/50 outline-none border border-gray-700/50 focus:border-[#1CB698] transition-all placeholder:text-gray-600 resize-none"
+                  className="w-full bg-[#252a2e] text-white p-4 rounded-2xl focus:ring-2 focus:ring-[#9338f3]/50 outline-none border border-gray-700/50 focus:border-[#9338f3] transition-all placeholder:text-gray-600 resize-none"
                 ></textarea>
               </div>
 
@@ -175,7 +175,7 @@ const Contact: React.FC = () => {
                   className={`relative group flex items-center gap-3 px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs transition-all duration-300 shadow-lg ${
                     status === "success"
                       ? "bg-green-500 text-white"
-                      : "bg-[#1CB698] text-white hover:shadow-[#1CB698]/20 hover:-translate-y-1"
+                      : "bg-[#9338f3] text-white hover:shadow-[#9338f3]/20 hover:-translate-y-1"
                   } disabled:opacity-70 disabled:hover:translate-y-0`}
                 >
                   {status === "loading"
