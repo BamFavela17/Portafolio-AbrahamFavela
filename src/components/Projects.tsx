@@ -29,7 +29,14 @@ const projects: ProjectItem[] = [
     url: "",
     Repo: "https://github.com/Yisus550/proy_caguamanta/tree/dev",
     image: "/img/ProyCahuamanta.png",
-    tags: ["ASP.NET Core", "SQL Server", "Bootstrap", "MVC", "Entity Framework","DataAnnotations"],
+    tags: [
+      "ASP.NET Core",
+      "SQL Server",
+      "Bootstrap",
+      "MVC",
+      "Entity Framework",
+      "DataAnnotations",
+    ],
     category: "Sistemas",
   },
   {
@@ -49,7 +56,16 @@ const projects: ProjectItem[] = [
     url: "",
     Repo: "https://github.com/BamFavela17/rent_car_DA.git",
     image: "/img/RentCar.png",
-    tags: ["Node.js", "PostgreSQL", "React/vite", "JWT", "Cookies","TailwindCSS", "API Rest","Express"],
+    tags: [
+      "Node.js",
+      "PostgreSQL",
+      "React/vite",
+      "JWT",
+      "Cookies",
+      "TailwindCSS",
+      "API Rest",
+      "Express",
+    ],
     category: "Sistemas",
   },
   {
@@ -134,14 +150,13 @@ const projects: ProjectItem[] = [
   },
   {
     title: "App Chat-online",
-    description:
-      "Aplicacion de chat que crea una comunicacion ",
+    description: "Aplicacion de chat que crea una comunicacion ",
     url: "",
     Repo: "",
     image: "",
     tags: ["Kotlin", "AndroidStudio", "Google auth", "Firebase"],
     category: "Mobile",
-  }
+  },
 ];
 
 const Project: React.FC = () => {
@@ -166,10 +181,9 @@ const Project: React.FC = () => {
         </motion.h2>
 
         <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
-          A continuación, encontrarás una selección de proyectos que reflejan mi
-          experiencia y habilidades en desarrollo web, móvil y de sistemas. Cada
-          proyecto ha sido cuidadosamente diseñado y desarrollado para cumplir
-          con los más altos estándares de calidad y funcionalidad.
+          "Si puedes imaginarlo, puedes programarlo", esa frace me ha inspirado
+          a desarrollar distintas soluciones ya sea para clientes, para
+          proyectos personales o academicos
         </p>
 
         {/* Botones de Filtro */}
