@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
         <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] rounded-full bg-[#1CB698] blur-[100px]"></div>
       </div>
 
-      <div className="relative z-10 max-w-[1100px] mx-auto px-5 text-center">
+      <div className="relative z-10 max-w-275 mx-auto px-5 text-center">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
         transition={{ delay: 1.2, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:block"
       >
-        <div className="w-[2px] h-12 bg-gradient-to-b from-[#1CB698] to-transparent mx-auto"></div>
+        <div className="w-0.5 h-12 bg-linear-to-b from-[#1CB698] to-transparent mx-auto"></div>
       </motion.div>
     </section>
   );

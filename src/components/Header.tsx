@@ -8,9 +8,9 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: 'Inicio', href: '#inicio' },
   { label: 'Sobre Mí', href: '#sobremi' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'Trayectoria', href: '#curriculum' },
-  { label: 'Skills', href: '#skills' },
   { label: 'Contacto', href: '#contacto' },
 ];
 
@@ -40,15 +40,15 @@ const Header: React.FC = () => {
 
   return (
     <header 
-      className={`fixed top-0 left-0 w-full z-[100] transition-all duration-500 ${
+      className={`fixed top-0 left-0 w-full z-100 transition-all duration-500 ${
         scrolled || isMenuOpen 
           ? 'bg-[#1e2326] shadow-2xl py-3' 
           : 'bg-transparent py-5'
       }`}
     >
-      <div className="flex justify-between items-center max-w-[1100px] mx-auto px-6">
+      <div className="flex justify-between items-center max-w-275 mx-auto px-6">
         
-        <div className="z-[110]">
+        <div className="z-110">
           <a 
             href="#inicio" 
             className="text-2xl font-bold text-[#1CB698] tracking-tighter transition-transform active:scale-95 block"
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                   className="text-white text-[11px] font-bold uppercase tracking-[2px] hover:text-[#1CB698] transition-colors relative group"
                 >
                   {item.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#1CB698] transition-all group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#1CB698] transition-all group-hover:w-full"></span>
                 </a>
               </li>
             ))}
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
         {/* Mobile Toggle */}
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden z-[110] p-2 text-[#1CB698] transition-transform active:scale-90"
+          className="md:hidden z-110 p-2 text-[#1CB698] transition-transform active:scale-90"
         >
           <i className={`fa-solid ${isMenuOpen ? 'fa-xmark' : 'fa-bars-staggered'} text-2xl`}></i>
         </button>

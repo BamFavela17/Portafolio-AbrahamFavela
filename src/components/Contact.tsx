@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contacto" className="py-20 bg-[#252a2e] overflow-hidden">
-      <div className="max-w-[1100px] mx-auto px-5">
+      <div className="max-w-275 mx-auto px-5">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,25 +58,9 @@ const Contact: React.FC = () => {
           >
             <div>
               <h3 className="text-[#1CB698] font-bold uppercase text-[10px] tracking-[3px] mb-6">
-                Canales Directos
+                Actualmente resido en:
               </h3>
-              <ul className="space-y-6">
-                <li className="flex items-center gap-4 group cursor-pointer">
-                  <div className="bg-[#1e2326] w-12 h-12 flex items-center justify-center rounded-full text-[#1CB698] group-hover:bg-[#1CB698] group-hover:text-white transition-all duration-300 shadow-lg">
-                    <i className="fa-solid fa-envelope"></i>
-                  </div>
-                  <div>
-                    <span className="block text-gray-500 text-[10px] uppercase font-bold tracking-wider">
-                      Email
-                    </span>
-                    <a
-                      href="mailto:favela.abraham17mx@gmail.com"
-                      className="text-white font-medium hover:text-[#1CB698] transition-colors"
-                    >
-                      favela.abraham17mx@gmail.com
-                    </a>
-                  </div>
-                </li>
+              <ul className="space-y-8">
                 <li className="flex items-center gap-4 group">
                   <div className="bg-[#1e2326] w-12 h-12 flex items-center justify-center rounded-full text-[#1CB698] group-hover:bg-[#1CB698] group-hover:text-white transition-all duration-300 shadow-lg">
                     <i className="fa-solid fa-location-dot"></i>
@@ -104,13 +88,15 @@ const Contact: React.FC = () => {
                     link: "https://linkedin.com/in/abraham-alejandro-favela-fernandez-28b598337",
                   },
                   { icon: "fa-github", link: "https://github.com/BamFavela17" },
+                  {icon: "fa-brands fa-google", link: "mailto:favela.abraham17mx@gmail.com"}
+                  
                 ].map((social, i) => (
                   <a
                     key={i}
                     href={social.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-12 h-12 bg-[#1e2326] flex items-center justify-center rounded-xl text-white hover:bg-[#1CB698] hover:-translate-y-1 transition-all duration-300 border border-gray-800"
+                    className="w-15 h-15 bg-[#1e2326] flex items-center justify-center rounded-4xl text-white hover:bg-[#1CB698] hover:-translate-y-1 transition-all duration-300 border border-gray-800"
                   >
                     <i className={`fa-brands ${social.icon} text-lg`}></i>
                   </a>
